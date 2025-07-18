@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(263, 88%, 10%);
+  color: white;
+  text-align: center;
+}
+#weatherModal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 10px;
+  min-height: 150px;
+  padding: 10px;
+  background: linear-gradient(45deg, rgb(37, 7, 235), rgb(122, 1, 235));
+}
+#weatherModal > div {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+
+#dataBottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+#dataBottom > div {
+  margin: 15px 0;
+}
+#searchInp{
+padding: 3px;
+}
+#searchBtn {
+  background-color: white;
+  border: none;
+padding: 4px;
+  border-radius: 2px;
+}
+
+
+@media screen and (max-width: 480px) {
+  #weatherModal {
+    width: 90%;
+    padding: 15px;
+  }
+
+  #searchInp {
+    width: 70%;
+    font-size: 14px;
+  }
+
+  #searchBtn {
+    padding: 4px 8px;
+  }
+
+  #dataBottom > div {
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #weatherModal {
+    width: 400px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #weatherModal {
+    width: 400px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
