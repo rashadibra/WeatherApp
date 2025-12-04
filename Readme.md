@@ -21,6 +21,3 @@ Bu layihə sadə hava proqnozu tətbiqidir. İstifadəçi şəhər adı daxil ed
 
 - Temperatur Kelvin dərəcədən selsiyə çevrilir.
 - Hava məlumatları real vaxtda OpenWeather API-dən alınır.
-
-Təşəkkürlər!  
-Hər hansı sualınız və ya təklifiniz varsa, əlaqə saxlayın.
